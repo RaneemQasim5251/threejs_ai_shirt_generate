@@ -7,6 +7,9 @@ const state = proxy({
   isFullTexture: false,
   logoDecal: './threejs.png',
   fullDecal: './threejs.png',
+  language: 'EN',
+  isOpen: false,
+  selectedShirt: 'tshirt', // Add this state for shirt selection
 });
 
 export default state;
